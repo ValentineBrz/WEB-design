@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+
+html, body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    display: table;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f2f2f2;
+}
+
+.content{
+    min-height: 100%;
+}
+
+#headnav {
+    width: 100%;
+    height: 700px;
+    background: url("../img/background.jpg") top center;
+    background-size: cover;
+    position: relative;
+}
+
+#headnav h1 {
+    margin: 45px 0 10px 0;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    color: #ffffff;
+}
+
+#headnav h3 {
+    color: #ffffff;
+    margin-bottom: 40px;
+    font-size: 24px;
+}
+
+.navbar-brand img {
+    width: 100px;
+}
+
+.navbar-custom:hover .navbar-nav:hover .nav-link:hover {
+    color: #1B75DB;
+  }
+
+.profile {
+    margin-top:50px;
+}
+
+.table1 {
+    background-color: #ffffff;
+}
+
+.vocab {
+    margin-top:50px;
+}
+
+.form-control {
+    margin-bottom: 15px;
+}
+
+.page-row {
+    margin-right: 250px;
+    margin-left: 250px;
+}
+
+
+footer {
+    display: table-row;
+    height: 0;
+    width: 100%;
+    background: #007b5e;
+}
+
+#footer ul.social a{
+  margin-right: 5px;
+    font-size:30px;
+    color:#ffffff;
+}
+
+#footer .copyright {
+  background-color: #1a252f;
+}
